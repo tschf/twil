@@ -258,3 +258,7 @@ console.log(emp1.getName());//John
 console.log(eng1.getName() + ' is a ' +  eng1.getField() + ' Enginner');//Frank
 ```
 This does not have the some prototypal chain as previous examples, but just extends from `Object`.
+
+Resources used:
+
+* JavaScript: The Good Parts, Douglas Crockford
