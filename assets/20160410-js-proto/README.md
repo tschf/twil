@@ -111,10 +111,11 @@ console.log(tom.employeeInfo());//Tom works at Brisbane
 
 In this example, the two hierarchies of Employee and Engineer look like:
 
-.
+```.
 └── Object
     └── Employee
         └── Engineer
+```
 
 So that when we construct Employee, in the prototype chain, it points directly to object. By adding the prototype constructor to Employee on the Engineer type, when creating it it points to an Employee instance. Without extending the employeeInfo function we still have that function available. As a brief extension to the above code block to demonstrate extending the `employeeInfo` function:
 
@@ -255,7 +256,7 @@ var emp1 = employee('John', 'Sydney');
 var eng1 = engineer('Frank', 'Darwin', 'Mechanical');
 
 console.log(emp1.getName());//John
-console.log(eng1.getName() + ' is a ' +  eng1.getField() + ' Enginner');//Frank
+console.log(eng1.getName() + ' is a ' +  eng1.getField() + ' Enginner');//Frank is a Mechanical Enginner
 ```
 This does not have the some prototypal chain as previous examples, but just extends from `Object`.
 
