@@ -4,4 +4,4 @@ What is this repository about? This is a scratch pad so to speak of topics I'm r
 
 | Week ending     | Subject area | What      |   Details |
 |-----------------|--------------|--------   |---------  |
-|10th April, 2016 | JavaScript   | All objects have a prototype attribute which can add attributes which all instances contain | [https://github.com/tschf/twil/blob/master/Eizi6lih/](Eizi6lih) |
+|10th April, 2016 | JavaScript   | All objects have a prototype attribute which can add attributes which all instances contain | [https://github.com/tschf/twil/tree/master/assets/20160410-js-proto/](tschf/twil/tree/master/assets/20160410-js-proto) |
