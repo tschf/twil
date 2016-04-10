@@ -136,3 +136,8 @@ header.onclick = headingClicked.bind({"foo" : "bar"});
 
 //clicked: Object {foo: "bar"}
 ```
+
+Resources:
+
+* JavaScript: The Good Parts, Douglas Crockford
+* http://stackoverflow.com/questions/1369004/this-keyword-in-event-methods-when-using-javascript-prototype-object
