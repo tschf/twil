@@ -53,4 +53,4 @@ e.g.
 
 ## More Details
 
-For full details on the class options, I encourage you to check out the documentation.
+For full details on the class options, I encourage you to check out the documentation. http://getbootstrap.com/css/
