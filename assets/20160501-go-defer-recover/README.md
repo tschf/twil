@@ -1,6 +1,6 @@
 # Go, Defer and Recover
 
-I was watching a Go talk from FOSDEM 2011 which introduces a simple web server that allows you to upload an image - the script then makes a copy of the image and saves it onto the server, ready to be served/shares/whatever you want to do with it. You can find the video here: https://www.youtube.com/watch?v=-i0hat7pdpk
+I was watching a Go talk from Google I/O 2011 (Building Web Apps in Go) which introduces a simple web server that allows you to upload an image - the script then makes a copy of the image and saves it onto the server, ready to be served/shares/whatever you want to do with it. You can find the video here: https://www.youtube.com/watch?v=-i0hat7pdpk
 
 In the initial version, all errors are handled in the `upload` handler, making the following call:
 
