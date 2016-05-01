@@ -52,7 +52,11 @@ func errorHandler(fn http.HandlerFunc) http.HandlerFunc {
 }
 ```
 
-Note, this particular test on `recover` returns two values, where `ok` is whether or note there was an error. Another commonly used technique would simply be:
+A new concept here is the syntax `recover().(error)`. This is known as [type assertion](https://golang.org/ref/spec#Type_assertions). `Recover` returns dynamic type (the value passed into `panic`) thus returns `Interface {}`. The latter part of the expression `.(error)`, asserts that the return value is of type `error`. The asserted type must implement the type of what `recover()` returns. If all that passes (it will for `string`s), the type will then become an `error`.
+
+In the example which assigns two values (e, ok), ok becomes true if the assertion holds.
+
+Another common approach would be:
 
 ```go
 if e := recover(); e != nil {
