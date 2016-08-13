@@ -5,6 +5,8 @@ What is this repository about? Just keeping of track of technologies I've learne
 | Week ending     | Subject area | What      |    |
 |-----------------|--------------|--------   |---------  |
 |||||
+|13th August, 2016 | JavaScript  | Object getters/setters | [Details](https://github.com/tschf/twil/tree/master/assets/20160814-js-getset) |
+|| GitHub CI With Oracle |||
 |1st May, 2016    | CSS          | CSS is introducing a grid system to lay out the page | [Details](http://apextips.blogspot.com.au/2016/04/preparing-for-css-grids.html) |
 |                 | Go           | Recovering from a panic in golang | [Details](https://github.com/tschf/twil/tree/master/assets/20160501-go-defer-recover)|
 |                 | Mathematics  | Divisibility rules for 2, 3, 4, 5, 6, 9, 10 on large numbers | [Details](https://github.com/tschf/twil/tree/master/assets/20160501-math-divisibility) |
