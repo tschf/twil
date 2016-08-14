@@ -27,14 +27,14 @@ for(var i of arr){
 }//5, 7, 3, 1
 ```
 
-This is done by getting the iterator of the array and behind the scenes calling `.next()` until no more values exist. The iterator is retrieved by referencing `Symbols.iterator` in the arrays subscript. As per:
+This is done by getting the iterator of the array and behind the scenes calling `.next()` until no more values exist. The iterator is retrieved by referencing `Symbol.iterator` in the arrays subscript. As per:
 
 ```js
 var arr = [5,7,3,1];
 var arrIt = arr[Symbol.iterator]();
 
 var rw;
-while((rw = arrIt.next()).done){
-    console.log(rw);
-}
+while(!(rw = arrIt.next()).done){
+    console.log(rw.value);
+}//5, 7, 3, 1
 ```
