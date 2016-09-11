@@ -100,4 +100,6 @@ Unlike the basic plugin API described earlier, the `this` value is an object wit
 
 See: http://codepen.io/tschf/pen/mAZjEw
 
-What's good by using widget factory is that you can add an API to your plugin. Any functions you create in the creation object will by private if they are prefixed with an underscore (e.g. _privateMethod). Any other functions will be made available publicly. So, if we add a method named `revert`, we can apply that with `$('#textInput').rtl("revert");` 
+What's good by using widget factory is that you can add an API to your plugin. Any functions you create in the creation object will by private if they are prefixed with an underscore (e.g. _privateMethod). Any other functions will be made available publicly. So, if we add a method named `revert`, we can apply that with `$('#textInput').rtl("revert");`.
+
+See: http://codepen.io/tschf/pen/XjmBrA
